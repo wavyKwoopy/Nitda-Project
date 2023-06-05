@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/login.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="img">
+        <img src="/images/cropped-cropped-NITDA-Logo-new-03.png">
+    </div>
     <div class="container">
-        <div class="nitdabackground"></div>
+        <div class="nitdabackground">
+            <div class="imgs"></div>
+        </div>
         <div class="form">
             <h2>Login</h2>
             <form action="">
                 <div class="innerform">
-                    <label for="email">Email</label><br>
-                    <input name="email" id="email" type="email" placeholder="email" required>
-
-                    <label for="password">Password</label><br>
+                    <div class="input-form">
+                        <label for="email">Email</label><br>
+                        <input name="email" id="email" type="email" placeholder="email" required>
+                        <div class="change">
+                            <label for="password">Password</label><br>
                     <input name="password" id="password" type="password" placeholder="password" pattern=".{8,12}" required title="pls 8 to 12 characters">
-
-                    <a href="">Forgot Your Passsword?</a>
+                        </div>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="">Forgot Your Passsword?</a>
+                    </div>
                 </div>
 
                 <div class="login">
