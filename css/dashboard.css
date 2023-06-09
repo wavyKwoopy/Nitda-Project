@@ -1,74 +1,181 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    background: #dfe9f5;
-}
-nav{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    background: #fff;
-    width: 90px;
-    transition: width 0.2s linear;
+.sidebar {
     height: 100%;
-    box-shadow: 0 20px 35px rgba(0,0,0, 0.1);
-}
-.logo{
-    display: flex;
-    text-align: center;
-    transition: all 0.5 ease;
-    margin: 10px 0 0 10px;
-}
-.logo img{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-}
-.logo span{
-    font-weight: bold;
-    padding-left: 15px;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-a{
-    position: relative;
-    color: rgb(85, 83, 83);
-    font-size: 14px;
-    display: table;
-    width: 300px;
-    padding: 10px;
-}
-.fas{
-    position: relative;
-    width: 70px;
-    height: 40px;
-    top: 14px;
-    font-size: 20px;
-    text-align: center;
-}
-.nav-item{
-    position: relative;
-    top: 12px;
-    margin-left: 10px;
-}
-a:hover{
-    background: #eee;
-}
-nav:hover{
-    width: 280px;
-    transition: all 0.5s ease;
-}
-.logout{
-    position: absolute;
-    bottom: 5%;
-}
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #004E2B;
+    transition: 0.5s;
+    padding-top: 20px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    transition: 0.5s;
+    }
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFFF;
+        display: block;
+    }
+    /* .sidebar a:hover {
+        color: #f1f1f1;
+    } */
+    a:hover{
+        background: #023A21; 
+    }
+    .logout{
+        position: absolute;
+        bottom: 8%;
+    }
+    .fas,
+    .nav-item{
+        vertical-align: middle;
+    }
+    .fas{
+        padding-bottom: 3px;
+        margin-right: 6px;
+        margin-left: 20px;
+    }
+    .fas:hover{
+        border-left: 4px solid #FFFF;
+    }
+    .logo{
+        display: flex;
+        text-align: center;
+        transition: all 0.5 ease;
+        /* margin-right: 100px; */
+    }
+    .logo img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+    .logo span{
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .name{
+        text-align: center;
+        color: #FFFF;
+    }
+    .name span{
+        font-weight: bold;
+    }
+    body{
+        background-color: rgb(210, 211, 209);
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+        margin-left: 85px;
+    }
+    #main a{
+        color: white;
+    }
+    input[type=search] {
+        border-radius: 20px;
+        width: 900px;
+        height: 30px;
+        border: none;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    i.fa{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .overviewsection{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .overview{
+        border: 2px solid transparent;
+        border-radius: 7px;
+        background-color: #FFFF;
+        /* position: absolute; */
+        width: 650px;
+        height: 200px;
+        top: 150px;
+    }
+    .newsupervisor{
+        border: 2px solid transparent;
+        border-radius:7px;
+        background-color: rgb(210, 211, 209);
+        position: center;
+        width: 620px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        text-align: center;
+    }
+    .newsupervisor p{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .newstudent{
+        border: 2px solid transparent;
+        border-radius:7px;
+        background-color: rgb(210, 211, 209);
+        position: center;
+        width: 620px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 50px;
+        text-align: center;
+    }
+    .newstudent p{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .projectsection{
+        border: 2px solid transparent;
+        border-radius: 10px;
+        background-color: #FFFF;
+        /* position: relative; */
+        width: 350px;
+        height: 390px;
+        margin-left:0px;
+        margin-top: 20px;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* align-items: center; */
+        min-height: 400px;
+    }
+    .weeks{
+        border: 1px dashed #575353;
+        margin: 20px;
+        margin-bottom: 0px;
+        border-radius: 7px;
+        height: 80px;
+        padding: 5px 10px;
+    }
+    .weeks p{
+        justify-content: center;
+    }
+    .start{
+        display: flex;
+        justify-content: right;
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+    .start input{
+        min-width: 40px;
+        width: 90px;
+        height: 32px;
+        background-color: #004E2B;
+        color: #fff;
+        border-radius: 12px;
+        font-size: 16px;
+        transition: all 0.5s ease-in-out;
+    }
