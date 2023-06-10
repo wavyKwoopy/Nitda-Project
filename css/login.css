@@ -41,15 +41,13 @@ body{
     align-items: center;
     width: 480px;
     height: 500px;
-    background: #004E2B;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     border-radius: 10px 0px 0px 10px;
-    background-image: url("/images/nitda\ 1.png");
-    background-blend-mode: multiply;
-    background-size: 300px;
-    background-size:cover;
-    position:center;
+    background: #004E2B url("/images/nitda\ 1.png") no-repeat;
+    background-size: contain;
     background-position: center;
+    background-blend-mode: multiply;
+    background-size: 400px 400px;
 }
 .nitdabackground .imgs{
     background-image: url("/images/nitda\ 1.png");
