@@ -112,6 +112,7 @@ body{
 }
 .form .forgot-password a:hover{
     color: #01361e;
+    text-decoration: underline;
 }
 .form .login{
     display: flex;
