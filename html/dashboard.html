@@ -1,76 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="../css/dashboard.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="../javascript/dashboard.js" ></script>
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <script src="https://kit.fontawesome.com/79ad04ff5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="mySidebar" class="sidebar" onmouseover='toggleSidebar()' onmouseout='toggleSidebar()'>
-    <div>
-        <a href="" class="logo">
-            <img src="/images/dashboard w.png">
-            <span class="nav-item"></span>
-        </a>
-    </div>
-    <div class="name">
-        <p><span>Anpe Kwoopnan</span> <br> Anpekwoopnan@gmail.com <p></p>
-    </div>
-
-  <a href="#"><i class="fas fa-home"></i><span class="nav-item">Dashboard</span></a><br>
-  <a href="#"><i class="fas fa-thin fa-bell"></i><span class="nav-item">Notification</span></a><br>
-  <a href="#"><i class="fas fa-solid fa-user" style="color: #fcfcfc;"></i><span class="nav-item">Supervisors</span></a><br>
-  <a href="#"><i class="fas fa-chart-bar"></i> <span class="nav-item">Category</span></a><br>
-  <a href="#"><i class="fas fa-sharp fa-solid fa-user-graduate" style="color: #f5f7f9;"></i><span class="nav-item">Students</span></a><br>
-  <a href="#"><i class="fas fa-question-circle"></i><span class="nav-item">Projects</span></a><br>
-  <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i><span class="nav-item">Logout</span></a><br>
-  <!-- <a href="#"><i class="material-icons">email</i><span class="icon-text"></span>contact<span></a> -->
-</div>
-
-<div id="main">
-  <div>
-    <input type="search" placeholder="search">
-    <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #dbdde1;"></i>
-    <a href="#"><i class="fas fa-thin fa-bell" ></i><span class="nav-itemm"></span></a>
-  </div>
-  <div class="box">
-    <div class="overviewsection">
-        <h4>Good morning! Dr Anpe</h4>
-        <div class="overview">
-            <h3>overview</h3>
-            <div class="newsupervisor">
-                <p>Add a new supervisor</p>
-            </div>
-            <div class="newstudent">
-                <p>Add a new student</p>
-            </div>
-        </div>
-    </div>
-  <div class="projectsection">
-    <h4>Upcoming Projects <i class="fa-solid fa-file-circle-plus" style="color: #01060e;"></i><h4></h4>
-    
-    <div class="weeks">
-        <p>week 01</p>
-        <p>Create a bank mobile app    <span>04jun - 18jun</span></p>
-    </div>
-    <div class="start">
-        <input type="submit" name="submit" value="start">
-    </div>
-    <div class="weeks">
-        <p>week 01</p>
-        <p>Create a bank mobile app    <span>04jun - 18jun</span></p>
-    </div>
-    <div class="start">
-        <input type="submit" name="submit" value="start">
-    </div>
-  </div>
-  </div>
-</div>
+    <nav>
+        <ul>
+            <figure>
+                <div class="first">
+                    <a href="" class="not">
+                        <img src="/images/mr usman.jpg" class="img">
+                        <div class="nav-texts">
+                            <p>Anpe Kwoopnan</p>
+                            <span>KwoopnanAnpe@gmail.com</span>
+                        </div>
+                    </a>
+                </div>
+            </figure>
+            <li><a href="#" class="a">
+                <i class="fas fa-solid fa-table-list"></i>
+                <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a href="#">
+                <i class="fas fa-regular fa-bell"></i>
+                <span class="nav-item">Notifications</span>
+            </a></li>
+            <li><a href="#">
+                <i class="fas fa-solid fa-user-tie"></i>
+                <span class="nav-item">Supervisors</span>
+            </a></li>
+            <li><a href="#">
+                <i class="fas fa-solid fa-bars"></i>
+                <span class="nav-item">Category</span>
+            </a></li>
+            <li><a href="#">
+                <i class="fas fa-solid fa-users"></i>
+                <span class="nav-item">Students</span>
+            </a></li>
+            <li><a href="#">
+                <i class="fas fa-solid fa-list-check"></i>
+                <span class="nav-item">Projects</span>
+            </a></li>
+            <li><a href="#" class="logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span class="nav-item">Logout</span>
+            </a></li>
+        </ul>
+    </nav>
 </body>
 </html>
