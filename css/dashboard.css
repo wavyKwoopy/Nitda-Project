@@ -11,7 +11,12 @@
 }
 
 body {
-  background: #D2D3D1;
+    background: #D2D3D1 url(/images/nitda.png) no-repeat center center fixed;
+    min-height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-blend-mode: multiply;
+    background-size: 400px 400px;
 }
 
 nav {
