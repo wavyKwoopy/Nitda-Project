@@ -185,9 +185,231 @@ nav:hover .nav-item {
         display: none;
       }
 }
-  
-  
-  
-  
-  
-  
+#main{
+    transition: margin-left .5s;
+    padding: 16px;    
+    margin-left: 90px;
+}
+/* .search{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+} */
+input[type=search] {
+    border-radius: 20px;
+    width: 750px;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#main a{
+    position: relative;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+  width: 1px;
+  padding: 0px;
+  margin-left: 0px;
+  border: 2px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+#main a:hover{
+  background-color: transparent;
+}
+#main a:not(.not)::before{
+  content: '';
+  display:block;
+  position: absolute;
+  width: 0px;
+  transition: 0.5s;
+  margin: auto;
+  background: #fff;
+}
+/* i.fa{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+} */
+.nav-itemm{
+  align-items: top;
+}
+.overviewsection{
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 550px;
+}
+.h{
+    top:150px;
+    width: 500px;
+    margin: 20px;
+}
+.overview{
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: #FFFF;
+    width: 500px;
+    height: 250px;
+    top: 150px;
+    position: absolute;
+    top: 21%;
+    right: 40%;
+    left: 25%;
+}
+.overview h3{
+  margin: 20px;
+}
+.newsupervisor{
+    border: 2px solid transparent;
+    border-radius:7px;
+    background-color: rgb(210, 211, 209);
+    position: center;
+    width: 470px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    text-align: center;
+}
+.newsupervisor p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.newstudent{
+    border: 2px solid transparent;
+    border-radius:7px;
+    background-color: rgb(210, 211, 209);
+    position: center;
+    width: 470px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    text-align: center;
+}
+.newstudent p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.upcoming{
+  margin-top: 30px;
+}
+.projectsection{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #FFFF;
+    width: 350px;
+    height: 350px;
+    margin-left:0px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#form{
+  margin-left: 150px;
+}
+.weeks{
+    border: 1px dashed #575353;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+    height: 80px;
+    padding: 5px 10px;
+}
+.weeks p{
+    justify-content: center;
+}
+.start{
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.start input{
+    min-width: 40px;
+    width: 90px;
+    height: 32px;
+    background-color: #004E2B;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+#bell{
+  top: 3px;
+  left: 5px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.lowersection{
+  margin-top: 50%;
+
+}
+.firstsection{
+  margin: 30px;
+  margin-left: 0px;
+}
+.secondsection{
+  margin: 30px;
+  margin-left: 0px;
+}
+.activity{
+  border-bottom: 1px solid #868383;
+}
+.boxx{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.barwrapfs{
+  margin: 30px;
+}
+.barwrapss{
+  margin: 30px;
+}
+.lowerproject{
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #FFFF;
+  width: 350px;
+  height: 150px;
+  margin-left:0px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.student{
+  /* border: 1px dashed #575353; */
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border-radius: 7px;
+  height: 60px;
+}
+.view{
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.view input{
+  min-width: 40px;
+  width: 90px;
+  height: 32px;
+  background-color: #004E2B;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+.recent{
+  margin: 10px;
+  margin-left: 20px;
+}
