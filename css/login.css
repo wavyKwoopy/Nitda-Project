@@ -121,7 +121,7 @@ body{
 }
 .form .login input{
     min-width: 40px;
-    width: 300px;
+    width: 80%;
     height: 50px;
     background-color: #004E2B;
     color: #fff;
