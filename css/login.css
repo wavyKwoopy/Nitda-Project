@@ -39,7 +39,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: calc(100% / 2 - 25px);
     height: 500px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     border-radius: 10px 0px 0px 10px;
@@ -56,7 +56,7 @@ body{
 }
 .form{
     position: relative;
-    width: 480px;
+    width: calc(100% / 2 - 25px);
     height: 500px;
     background: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
