@@ -371,9 +371,17 @@ nav:hover .nav-item {
   overflow-x: auto;
 }
 @media (max-width: 730px){
+  body{
+    background: #D2D3D1;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+  }
   nav{
       width: 90px;
       transition: none;
+      position: fixed;
   }
   nav:hover{
       width: 90px;    
@@ -391,7 +399,40 @@ nav:hover .nav-item {
       font-size: 5px;
       padding-top: 0px;
     }
+    nav .first{
+      margin-top: -180px;
+    }
+    .box{
+      margin-left: 20%;
+    }
     .nav-item{
       display: none;
+    }
+    .top{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30%;
+      width: 100%;
+    }
+    .top input{
+      width: 100%;
+    }
+    .box{
+      display: flex;
+    }
+    .projectsection{
+      display: none;
+    }
+    .lowerproject{
+      display: none;
+    }
+    .overview{
+      width: 110%;
+      margin-top: 70px;
+    }
+    .overview h3{
+      width: 100%;
+      text-align: center;
     }
 }
