@@ -359,6 +359,9 @@ nav:hover .nav-item {
     height: 85%;
     margin-top: 17%;
     margin-left: -10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .lowerproject{
   border: 2px solid transparent;
@@ -380,11 +383,12 @@ nav:hover .nav-item {
   }
   nav{
       width: 90px;
-      transition: none;
+      transition: all 0.2s linear;
       position: fixed;
+      z-index: 100;
   }
   nav:hover{
-      width: 90px;    
+      width: 220px;    
   }
   nav:hover + .first .img {
       transform: scale(1);
@@ -400,13 +404,13 @@ nav:hover .nav-item {
       padding-top: 0px;
     }
     nav .first{
-      margin-top: -180px;
+      margin-top: -150px;
+    }
+    .logout{
+      bottom: 10%;
     }
     .box{
       margin-left: 20%;
-    }
-    .nav-item{
-      display: none;
     }
     .top{
       display: flex;
@@ -420,6 +424,16 @@ nav:hover .nav-item {
     }
     .box{
       display: flex;
+    }
+    .box h4{
+      width: 100%;
+    }
+    .box.lowersection img{
+      display: none;
+    }
+    .box .lowersection{
+      margin-left: 5%;
+      margin-top: 10%;
     }
     .projectsection{
       display: none;
