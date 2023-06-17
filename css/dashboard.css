@@ -18,6 +18,7 @@ body {
     background-size: 400px 400px;
     display: flex;
     flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 nav {
@@ -355,18 +356,97 @@ nav:hover .nav-item {
     border: 2px solid transparent;
     border-radius: 10px;
     background-color: #FFFF;
-    width: 150%;
-    height: 85%;
-    margin-top: 17%;
+    width: 160%;
+    height: 80%;
+    margin-top: 10%;
     margin-left: -10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.projectsection .Upcoming{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  
+}
+.Upcoming p{
+  color: #004E2B;
+  font-weight: 550;
+  font-size: 17px;
+}
+.projectsection .weeks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.projectsection .weeks .week-details{
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #575353;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 16px;
+}
+.projectsection .weeks .week-details p{
+  color: #868383;
+  font-size: 11px;
+}
+.projectsection .weeks .week-details h3{
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+}
+.f-direction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectsection .weeks .week-details span{
+  font-size: 8px;
+  font-weight: bold;
+}
+.projectsection .weeks .start{
+  width: 30%;
+  height: 47px;
+  border-radius: 5px;
+  background: #004E2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 0px;
+  left: 35%;
+  top: 10px;
+}
+.projectsection .weeks .start input{
+  border: none;
+  background: none;
+  color: #fff;
+  font-weight: 300;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.projectsection .weeks .start input:hover{
+  cursor: pointer;
+  background: #01361e;
+  border-radius: 5px;
 }
 .lowerproject{
   border: 2px solid transparent;
   border-radius: 10px;
   background-color: #FFFF;
-  width: 150%;
+  width: 160%;
   height: 38%;
-  margin-top: 17%;
+  margin-top: 16%;
   margin-left: -10%;
   overflow-x: auto;
 }
@@ -380,11 +460,12 @@ nav:hover .nav-item {
   }
   nav{
       width: 90px;
-      transition: none;
+      transition: all 0.2s linear;
       position: fixed;
+      z-index: 100;
   }
   nav:hover{
-      width: 90px;    
+      width: 220px;    
   }
   nav:hover + .first .img {
       transform: scale(1);
@@ -400,13 +481,13 @@ nav:hover .nav-item {
       padding-top: 0px;
     }
     nav .first{
-      margin-top: -180px;
+      margin-top: -150px;
+    }
+    .logout{
+      bottom: 10%;
     }
     .box{
       margin-left: 20%;
-    }
-    .nav-item{
-      display: none;
     }
     .top{
       display: flex;
@@ -420,6 +501,16 @@ nav:hover .nav-item {
     }
     .box{
       display: flex;
+    }
+    .box h4{
+      width: 100%;
+    }
+    .none{
+      display: none;
+    }
+    .box .lowersection{
+      margin-left: 5%;
+      margin-top: 10%;
     }
     .projectsection{
       display: none;
