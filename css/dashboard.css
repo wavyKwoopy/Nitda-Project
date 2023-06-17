@@ -355,13 +355,61 @@ nav:hover .nav-item {
     border: 2px solid transparent;
     border-radius: 10px;
     background-color: #FFFF;
-    width: 150%;
+    width: 180%;
     height: 85%;
     margin-top: 17%;
     margin-left: -10%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow-y: auto;
+}
+.projectsection .Upcoming{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Upcoming p{
+  color: #004E2B;
+  font-weight: 550;
+  font-size: 17px;
+}
+.projectsection .weeks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.projectsection .weeks .week-details{
+  width: 100%;
+  height: 100%;
+  border: 1.5px dashed #868383;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: 20px;
+}
+.projectsection .weeks .week-details p{
+  color: #868383;
+  font-size: 11.5px;
+}
+.projectsection .weeks .week-details h3{
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+}
+.f-direction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectsection .weeks .week-details span{
+  font-size: 8px;
+  font-weight: 600;
 }
 .lowerproject{
   border: 2px solid transparent;
