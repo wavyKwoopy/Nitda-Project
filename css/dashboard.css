@@ -636,11 +636,11 @@ nav .first{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background:#D2D3D1;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   /* background: #D2D3D1; */
-  background: red;
+  background: #8A8888;
 }
