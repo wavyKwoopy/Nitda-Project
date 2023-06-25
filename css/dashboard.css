@@ -632,6 +632,7 @@ nav:hover .nav-item {
       text-align: center;
     }
 }
+/* need to work on responsivity */
 @media (max-width: 420px){
   nav{
     width: 80px;
