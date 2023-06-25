@@ -224,6 +224,7 @@ nav:hover .nav-item {
 }
 #main .box h4{
   width: 40%;
+  max-height: 60px;
   font-size: 19px;
   font-weight: 550;
   color: #004E2B;
@@ -392,7 +393,6 @@ nav:hover .nav-item {
     align-items: center;
     flex-direction: column;
     position: relative;
-    overflow-y: auto;
 }
 .project .projectsection::-webkit-scrollbar-button{
   margin: 0;
@@ -472,6 +472,11 @@ nav:hover .nav-item {
   background: #01361e;
   border-radius: 5px;
 }
+.week-stack{
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
 .lowerproject{
   border: 2px solid transparent;
   border-radius: 10px;
@@ -481,7 +486,6 @@ nav:hover .nav-item {
   max-height: 194px;
   margin-top: 16%;
   margin-left: -10%;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
@@ -607,7 +611,10 @@ nav:hover .nav-item {
       margin-left: -48px;
       margin-top: 10%;
     }
-    .box
+    .box .lowersection .mobileappwrap{
+      padding-top: 2px;
+      margin-top: 5px;
+    }
     .firstsection{
       margin-top: 10%;
     }
