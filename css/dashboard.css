@@ -676,7 +676,6 @@ nav .first{
 ::-webkit-scrollbar-thumb {
   background:#D2D3D1;
   border-radius: 15px;
->>>>>>> 650f9ee1ec93da29d7e224b3365c816188c7f47e
 }
 /* 
 Handle on hover
@@ -685,4 +684,3 @@ Handle on hover
   background: #8A8888;
   cursor: pointer;
 }
->>>>>>> 650f9ee1ec93da29d7e224b3365c816188c7f47e
