@@ -675,21 +675,12 @@ nav .first{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background:#D2D3D1;
-<<<<<<< HEAD
-  border-radius: 10px;
-  border: 1px solid whitesmoke;
-=======
   border-radius: 15px;
 >>>>>>> 650f9ee1ec93da29d7e224b3365c816188c7f47e
 }
 /* 
 Handle on hover
 ::-webkit-scrollbar-thumb:hover {
-<<<<<<< HEAD
-  background: #D2D3D1;
-  background: red;
-} */
-=======
   /* background: #D2D3D1; */
   background: #8A8888;
   cursor: pointer;
