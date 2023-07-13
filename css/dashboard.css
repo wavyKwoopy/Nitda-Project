@@ -677,10 +677,10 @@ nav .first{
   background:#D2D3D1;
   border-radius: 15px;
 }
-/* 
+
 Handle on hover
 ::-webkit-scrollbar-thumb:hover {
-  /* background: #D2D3D1; */
+  background: #D2D3D1; 
   background: #8A8888;
   cursor: pointer;
 }

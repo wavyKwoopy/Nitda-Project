@@ -350,7 +350,10 @@ nav:hover .nav-item {
     align-items: center;
     flex-direction: column;
     position: relative;
-    overflow-y: auto;
+    /* overflow-y: auto; */
+}
+.project .projectsection::-webkit-scrollbar-button{
+    margin: 0;
 }
 .projectsection .Upcoming{
   display: flex;
